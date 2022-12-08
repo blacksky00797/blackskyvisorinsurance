@@ -60,6 +60,7 @@ nav .left-items-wrapper {
     justify-content: space-between;
     align-items: center;
     width: 150px;
+    /* height: 100px; */
 }
 
 .right-items-wrapper .noti-icon-wrapper {
@@ -74,6 +75,23 @@ nav .left-items-wrapper {
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+.right-items-wrapper .noti-counter-wrapper {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    right: 25px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    /* display: none; */
 }
 .right-items-wrapper .user-profile-wrapper{
     height: 50px;
