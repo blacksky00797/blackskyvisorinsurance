@@ -162,6 +162,45 @@ nav .left-items-wrapper {
     align-items: center;
     display: none;
 }
+#update-contact .success-update-wrapper {
+    width: 450px;
+    height: 450px;
+    border-radius: 60px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#update-contact .success-update-wrapper .icon-wrapper {
+    font-size: 100px;
+    text-align: center;
+    color: #0093FF;
+}
+#update-contact .success-update-wrapper .title-wrapper {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#update-contact .success-update-wrapper .body-text-wrapper {
+    text-align: center;
+    color: #808080;
+}
+#update-contact .success-update-wrapper .ok-button-wrapper {
+    background-color: #0093FF;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+    
+}
 #update-contact .update-contact-wrapper {
     width: 1000px;
     height: 500px;
